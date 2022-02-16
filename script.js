@@ -6,7 +6,7 @@ buttons.map(button => {
     button.addEventListener('click', (e) => {
         switch(e.target.innerText){
             case 'C':
-                dsiplay.innerText = '';
+                display.innerText = '';
                 break;
             case '=':
                 try{
